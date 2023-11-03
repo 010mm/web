@@ -1,0 +1,30 @@
+
+.button{
+
+    position: absolute;
+    margin: 530px;
+    background-color: #B87967;
+    color: #FFFFFF;
+    
+    border: 2px solid #FFFFFF; 
+    border-radius: 80px;
+    font-family: 'pretendard';
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+background-color: #B87967; opacity: 79%;
+transition: 0.3s;
+}
+
+.button :focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: #FFFFFF;
+
+}
